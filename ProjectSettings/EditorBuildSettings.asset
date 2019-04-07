@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Oculus/VR/Scenes/Room.unity
+    guid: 54445976c1dbf1c49bb38ba7eba558e8
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 69f9596edfac1514a822ab76ebfd3f08
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 6e8c5a8f90908434f918fce008af68c2
+  - enabled: 0
+    path: Assets/Oculus/VR/Scenes/UI.unity
+    guid: 1f4d3ae64a10d434db219de8b14348e1
+  m_configObjects: {}

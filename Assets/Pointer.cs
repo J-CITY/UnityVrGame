@@ -91,7 +91,7 @@ public class Pointer : MonoBehaviour
 
         Ray ray = new Ray(currentOrigin.position, currentOrigin.forward);
 
-        Physics.Raycast(ray, out hit, distance, layer);
+        Physics.Raycast(ray, out hit, distance);
 
         return hit;
     }

@@ -62,8 +62,9 @@ public class EnemyController : MonoBehaviour
         if (col.gameObject.tag == "bullet")
         {
             health -= 1;
-            if (health <= 0)
+            if (health <= 0 && !isDaing)
             {
+                Params.score += 1;
                 anim.SetTrigger(die);
                 anim.Play(die);
                 Debug.Log("DIE");
@@ -81,7 +82,7 @@ public class EnemyController : MonoBehaviour
         if (daingTimer >= daingTime)
         {
             Destroy(this.gameObject);
-            Params.score += 1;
+            //Params.score += 1;
         }
     }
 }
